@@ -1,0 +1,139 @@
+/*--------------------AboutUs page----*/ 
+
+
+body{direction: rtl}
+
+/*---Start--Nav---*/
+
+.top-nav .nav-logo .lang-E{
+    margin-left: 2px;
+}
+.top-nav .nav .nav-item{
+    margin-left: 20px;
+}
+.top-nav  .menue-span div .div-left{
+    float: right;
+}
+.top-nav  .menue-span div .div-left span{
+    margin-right: 10px;
+}
+.top-nav .menue-span div .div-right .lang-E{
+    margin-left: 2px;
+}
+.top-nav .menue-span div .div-right .lang-ar{
+    margin-right: 5px;
+}
+.search p{
+    margin-left: 10px;
+}
+
+/*---End--design---*/
+/*---Start-our-team---*/
+
+.our-team .team-one{
+    box-shadow: 10px -10px #d3d3d3;
+}
+.our-team .team-two{
+    box-shadow: -10px -10px #d3d3d3;
+}
+.our-team .team-margin{
+    margin-right: 60px
+}
+.our-team p{
+    text-align: right;
+}
+/*---End-our-team---*/
+
+
+
+/*------AboutUs-----*/
+/*------home-----*/
+/*---Start--cover---*/
+
+.carousel-indicators{
+justify-content: flex-end;
+    right:-35px;
+}
+
+
+/*---end--cover---*/
+/*--our-service---*/
+.our-service p{
+    text-align: right;
+}
+/*---our-service---*/
+/*---our-work---*/
+
+.our-work button{
+    margin-left: 60px;
+}
+
+/*---our-work---*/
+/*---offer---*/
+
+.offer p{
+    text-align: right;
+}
+.offer h5{
+    text-align: right;
+    margin-right: 20px;
+}
+.offer span{
+    float: left;
+}
+/*---offer---*/
+/*---test---*/
+
+.test .imag-tab img:nth-of-type(2){
+    margin-right: 5px;
+}
+
+}
+/*---test---*/
+/*------home-----*/
+/*------contact-----*/
+
+
+.getin form button{
+    float: left;
+}
+.getin .line-background {
+    width: 30%;
+    padding-left: 50px;
+}
+
+
+/*------contact-----*/
+/*------Portfolio-----*/
+
+.clients .image-clients img{
+    margin-right: 70px;
+
+}
+/*------Portfolio-----*/
+
+.taste .ul-img li{
+    margin-left: 80px;
+}
+.taste .ul-img li span{
+    margin-left: 60px;
+}
+
+
+
+@media(max-width:576px){
+ .taste .ul-img li{
+    margin-left: 0px;
+}
+.taste .ul-img li span{
+    margin-left: 0px;
+}
+}
+@media(min-width:577px) and (max-width:992px){
+ .taste .ul-img li{
+    margin-left: 50px;
+}
+.taste .ul-img li span{
+    margin-left: 10px;
+}
+}
